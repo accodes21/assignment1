@@ -21,7 +21,7 @@ const RecipeCard = ({ title, description, imageSrc }) => {
         paddingY="1.5"
         paddingX="1"
       />
-      <Box paddingX="4" paddingY="2">
+      <Box paddingX="6" paddingY="2">
         <Heading
           as="h2"
           fontSize="xl"
