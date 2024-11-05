@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center py-16 md:py-32 md:mt-[12em] md:flex-row md:justify-evenly bg-[#f7f8fb]">
+    <div className="flex flex-col items-center py-16 md:py-0 md:mt-[12em] md:flex-row md:justify-evenly bg-[#f7f8fb]">
       <Image
         src="/about.png"
         alt="about"

@@ -63,7 +63,7 @@ export default function Carousel() {
       >
         Latest Articles
       </Heading>
-      <SimpleGrid columns={[1, 2, 3]} spacing={4} mb={8} placeItems="center">
+      <SimpleGrid columns={[1, 2, 3]} gap={4} mb={8} placeItems="center">
         {currentRecipes.map((recipe, index) => (
           <RecipeCard
             key={index}
