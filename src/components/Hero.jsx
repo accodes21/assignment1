@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col md:flex-row-reverse w-full">
+    <section className="relative flex flex-col md:flex-row-reverse w-full">
       <div className="relative h-[500px] md:h-screen md:w-1/2">
         <Image
           src="/Rectangle 400.png"
@@ -51,7 +51,7 @@ const Hero = () => {
           Explore Now!
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

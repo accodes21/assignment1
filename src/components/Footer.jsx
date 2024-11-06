@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-20 px-10 mt-4 bg-[#F8F8F8] flex flex-col md:flex-row justify-evenly">
+    <footer className="py-20 px-10 mt-4 bg-[#F8F8F8] flex flex-col md:flex-row justify-evenly">
       <Image
         src="/logo.png"
         alt="logo"
@@ -13,22 +13,22 @@ const Footer = () => {
       />
       <div className="flex flex-col">
         <h2 className="text-[#0E2368] font-semibold text-md">Contact Us</h2>
-        <p className="text-[#444957] text-sm py-3">
+        <address className="text-[#444957] text-sm py-3">
           Lorem Ipsum Pvt Ltd.5/1, Magalton Road, <br /> Phartosh Gate near YTM
           Market, <br /> XYZ-343434
-        </p>
+        </address>
         <p className="text-[#444957] text-sm py-3">example2020@gmail.com</p>
         <p className="text-[#444957] text-sm py-3">(904) 443-0343</p>
       </div>
-      <div>
+      <ul>
         <h2 className="text-[#0E2368] font-semibold text-md mt-8 md:mt-0">
           More
         </h2>
-        <p className="text-[#444957] text-sm py-3">About Us</p>
-        <p className="text-[#444957] text-sm py-3">Products</p>
-        <p className="text-[#444957] text-sm py-3">Career</p>
-        <p className="text-[#444957] text-sm py-3">Contact Us</p>
-      </div>
+        <li className="text-[#444957] text-sm py-3">About Us</li>
+        <li className="text-[#444957] text-sm py-3">Products</li>
+        <li className="text-[#444957] text-sm py-3">Career</li>
+        <li className="text-[#444957] text-sm py-3">Contact Us</li>
+      </ul>
       <div className="flex flex-col-reverse items-center mt-12 md:mt-0 md:block">
         <div>
           <h2 className="text-[#0E2368] font-semibold text-md text-center hidden md:block">
@@ -44,7 +44,7 @@ const Footer = () => {
           &copy; 2022 Food Truck Example
         </p>
       </div>
-    </div>
+    </footer>
   );
 };
 

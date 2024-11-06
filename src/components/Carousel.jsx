@@ -51,7 +51,7 @@ export default function Carousel() {
   const currentRecipes = recipes.slice(startIndex, startIndex + itemsPerPage);
 
   return (
-    <Box px={8} py={12} mt="16">
+    <Box as="section" px={8} py={12} mt="16">
       <Heading
         as="h1"
         fontSize="4xl"
